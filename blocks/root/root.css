@@ -1,0 +1,115 @@
+@font-face {
+    font-family: "Inter" ;
+    src: url(../../font/Inter-Regular.otf) format("opentype");
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Inter" ;
+    src: url(../../font/Inter-ExtraBold.otf) format("opentype");
+    font-weight: bold;
+}
+
+
+.root{
+    min-width: 1280px;
+    margin: auto;
+    font-family: "Inter";
+    background-color: #2A2C2F;
+    color:white;
+  }
+  
+main{
+  margin: 0%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 768px) {
+  .root{
+    min-width: 768px;
+    
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .root{
+    min-width: 320px;
+    
+  }
+}
+
+
+
+/**
+  .description,
+  .description__title,
+  .description__quote,
+  .description__author,
+  .description__author,
+  .description__text,
+  .gallery,
+  .gallery__grid,
+  .places,
+  .places__kiev,
+  .places__kiev-column-left,
+  .places__title-kiev,
+  .places__image-kiev,
+  .places__link,
+  .places__kiev-column-right,
+  .places__kiev-subtitle,
+  .places__kiev-author,
+  .places__kiev-text-f,
+  .places__kiev-text-s,
+  
+  .places__criccieth,
+  .places__criccieth-column-left,
+  .places__title-criccieth,
+  .places__image-criccieth,
+  .places__criccieth-column-right,
+  .places__criccieth-subtitle,
+  .places__criccieth-author,
+  .places__criccieth-text-f,
+  .places__criccieth-text-s,
+  
+  .places__berea,
+  .places__berea-column-left,
+  .places__title-berea,
+  .places__image-berea,
+  .places__berea-column-right,
+  .places__berea-subtitle,
+  .places__berea-author,
+  .places__berea-text-f,
+  .places__berea-text-s,
+  
+  .places__muramvya,
+  .places__muramvya-column-left,
+  .places__title-muramvya,
+  .places__image-muramvya,
+  .places__muramvya-column-right,
+  .places__muramvya-subtitle,
+  .places__muramvya-author,
+  .places__muramvya-text-f,
+  .places__muramvya-text-s,
+  .places__muramvya-text-t,
+  
+  .places__dominicana,
+  .places__dominicana-column-left,
+  .places__title-dominicana,
+  .places__image-dominicana,
+  .places__dominicana-column-right,
+  .places__dominicana-subtitle,
+  .places__dominicana-author,
+  .places__dominicana-text-f,
+  .places__dominicana-text-s,
+
+  .visitanos,
+  .visitanos__cover,
+  .visitanos__main,
+  .visitanos__title,
+  .visitanos__text,
+  .visitanos__link,
+  .footer__title{
+    border: 1px solid red
+  }**/

@@ -1,0 +1,27 @@
+.places__kiev-text-s{
+  margin-top: 25px;
+  max-width: 100%;
+  height: 232px;
+  left: 648px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+}
+
+@media screen and (max-width: 768px) {
+  .places__kiev-text-s{
+    height: 260px;
+    font-size: 16px;
+    margin-top: 14px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places__kiev-text-s{
+    margin-top: 7px;
+    max-width: 288px;
+    height: 338px;
+  }
+}

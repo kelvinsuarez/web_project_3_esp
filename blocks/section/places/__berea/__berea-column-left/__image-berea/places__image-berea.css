@@ -1,0 +1,19 @@
+.places__image-berea{
+    margin-top: 17px;
+    right: 0%;
+    width: 100%;
+    height: auto;
+    margin-bottom: 0%;
+  }
+
+  @media screen and (max-width: 768px) {
+    .places__image-berea{
+      margin-top: 2px;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .places__image-berea{
+      margin-top: 119px;
+    }
+  }

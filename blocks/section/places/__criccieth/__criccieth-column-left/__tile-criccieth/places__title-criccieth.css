@@ -1,0 +1,27 @@
+.places__title-criccieth{
+    max-width: 484px;
+    margin-top: 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    margin-bottom: 0%;
+  }
+
+  @media screen and (max-width: 768px) {
+    .places__title-criccieth{
+      max-width: 100%;
+      font-size: 42px;
+      line-height: 46px;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .places__title-criccieth{
+      max-width: 288px;
+      height: 35px;
+      font-size: 32px;
+      line-height: 35px;
+    }
+  }

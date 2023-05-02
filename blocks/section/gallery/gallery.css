@@ -1,0 +1,23 @@
+.gallery{
+    max-width: 100%;
+    height: 445px;
+    display: flex;
+    justify-content: center;
+    margin-top: 92px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .gallery{
+      margin-top: 64px;
+      max-width: 95%;
+      height: 1105px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .gallery{
+    width: 288px;
+    margin-top: 38px;
+    height: 1820px;
+  }
+}

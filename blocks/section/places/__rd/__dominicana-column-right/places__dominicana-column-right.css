@@ -1,0 +1,23 @@
+.places__dominicana-column-right{
+  width: 100%;
+  margin-top: 170px;
+  display: flex;
+  flex-direction: column;
+}
+
+  @media screen and (max-width: 768px) {
+    .places__dominicana-column-right{
+      margin-top: 42px;
+      height: 605px;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .places__dominicana-column-right{
+      position: absolute;
+      display: flex;
+      align-items: center;
+      margin-top: 50px;
+      height: 1232px;
+    }
+  }

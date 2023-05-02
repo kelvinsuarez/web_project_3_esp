@@ -1,0 +1,33 @@
+.places__criccieth-author{
+    margin-top: 8px;
+    max-width: 456px;
+    height: 22px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 0%;
+  }
+
+  .places__criccieth-author2{
+    margin-top: 0%;
+
+  }
+
+  @media screen and (max-width: 768px) {
+    .places__criccieth-author{
+      max-width: 100%;
+      height: 22px;
+    }
+    .places__criccieth-author2{
+      margin-top: 0%;
+      height: 44px;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .places__criccieth-author{
+      width: 288px;
+    }
+  }

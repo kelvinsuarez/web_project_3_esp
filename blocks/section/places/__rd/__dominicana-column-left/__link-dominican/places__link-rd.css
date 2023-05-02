@@ -1,0 +1,33 @@
+.places__link-rd{
+    background-color: #0278FE;
+    padding: 15px 5px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 48px;
+    color: white;
+    width: 355px;
+    height: 22px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: none;
+    margin-left: 0%;
+  }
+
+  .places__link-rd:hover{
+    background-color: #0063D2;;
+  }
+
+  @media screen and (max-width: 320px) {
+    .places__link-rd{
+      margin-top: 650px;
+      width: 288px;
+      height: 22px;
+      font-size: 14px;
+      line-height: 17px;
+    }
+    
+  }
+

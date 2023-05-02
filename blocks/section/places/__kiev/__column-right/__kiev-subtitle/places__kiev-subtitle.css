@@ -1,0 +1,22 @@
+.places__kiev-subtitle{
+    margin-top: 0%;
+    width: 67px;
+    height: 15px;
+    left: 648px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #AAAAAA;
+    margin-bottom: 0%;
+  }
+
+  @media screen and (max-width: 320px) {
+    .places__kiev-subtitle{
+      margin-top: 65px;
+      width: 288px;
+    }
+  }

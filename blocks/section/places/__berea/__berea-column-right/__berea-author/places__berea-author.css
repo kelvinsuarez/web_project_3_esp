@@ -1,0 +1,23 @@
+.places__berea-author{
+    margin-top: 8PX;
+    max-width: 456px;
+    height: 22px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 0%;
+  }
+
+  @media screen and (max-width: 768px) {
+    .places__berea-author{
+      max-width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .places__berea-author{
+      width: 288px;
+    }
+  }

@@ -1,0 +1,23 @@
+.places__muramvya-column-right{
+  width: 100%;
+  margin-top: 170px;
+  display: flex;
+  flex-direction: column;
+}
+
+  @media screen and (max-width: 768px) {
+    .places__muramvya-column-right{
+      margin-top: 72px;
+      height: 810px;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .places__muramvya-column-right{
+      position: absolute;
+      display: flex;
+      align-items: center;
+      margin-top: 17px;
+      height: 1440px;
+    }
+  }

@@ -1,0 +1,22 @@
+.description{
+    margin-top: 65px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 984px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .description{
+      width: 720px;
+      margin-top: 69px;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .description{
+      width: 288px;
+      margin-top: 40px;
+    }
+  }

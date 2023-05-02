@@ -1,0 +1,27 @@
+.visitanos{
+    margin-top: 92px;
+    width: 1184px;
+    height: 740px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  @media screen and (max-width: 768px) {
+    .visitanos{
+      width: 768px;
+      left: 0px;
+      height: 746px;
+      }
+  }
+
+  @media screen and (max-width: 320px) {
+    .visitanos{
+      width: 320px;
+      height: 254px;
+    }
+  }
+  
+  

@@ -1,0 +1,23 @@
+.places__kiev-column-right{
+  width: 100%;
+  margin-top: 190px;
+  display: flex;
+  flex-direction: column;
+}
+
+  @media screen and (max-width: 768px) {
+    .places__kiev-column-right{
+      margin-top: 89px;
+      height: 609px;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .places__kiev-column-right{
+      position: absolute;
+      display: flex;
+      align-items: center;
+      margin-top: 62px;
+      height: 1175px;
+    }
+  }

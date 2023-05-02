@@ -1,0 +1,29 @@
+.footer__title{
+    margin-top: 92px;
+    margin-bottom: 24px;
+    max-width: 191px;
+    height: 16px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: left
+  }
+
+  @media screen and (max-width: 768px) {
+    .footer__title{
+      margin-top: 88px;
+      
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .footer__title{
+      margin-top: 64px;
+      line-height: 14px;
+      height: 14px;
+    }
+  }
+  
+  

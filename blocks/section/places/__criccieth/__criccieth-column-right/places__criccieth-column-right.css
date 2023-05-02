@@ -1,0 +1,23 @@
+.places__criccieth-column-right{
+    width: 100%;
+    margin-top: 155px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media screen and (max-width: 768px) {
+    .places__criccieth-column-right{
+      margin-top: 31px;
+      height: 640px;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .places__criccieth-column-right{
+      position: absolute;
+      display: flex;
+      align-items: center;
+      margin-top: 16px;
+      height: 1217px;
+    }
+  }

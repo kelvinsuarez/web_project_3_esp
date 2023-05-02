@@ -1,0 +1,24 @@
+.description__author{
+    max-width: 720px;
+    position: absolute;
+    text-align: right;
+    top: 335px;
+    right: 297px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .description__author{
+      right: 0px;
+      top: 390px;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .description__author{
+      max-width: 100%;
+      top: 535px;
+    }
+  }

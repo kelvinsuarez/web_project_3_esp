@@ -1,0 +1,25 @@
+.places__kiev{
+    display: grid;
+    max-width: 77%;
+    grid-template-columns: 460px 484px;
+    grid-gap:40px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .places__kiev{
+      min-width: 96%;
+      grid-template-columns: 340px 352px;
+      grid-gap: 42px;
+      height: 700px;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .places__kiev{
+      min-width: 100%;
+      grid-template-columns: 320px;
+      height: 1238px;
+      position: relative;
+    }
+  }
+  
