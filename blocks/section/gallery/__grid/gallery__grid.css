@@ -1,6 +1,6 @@
 .gallery__grid{
-    max-width: 1184px; 
-    max-height: 442px; 
+    max-width: 1184px;
+    max-height: 442px;
     display: grid;
     grid-template-rows: repeat(2,1fr);
     grid-template-columns: repeat(4,1fr);
@@ -11,7 +11,7 @@
 
   @media screen and (max-width: 768px) and (max-width: 1279px) {
     .gallery__grid{
-      max-width: 720px; 
+      max-width: 720px;
       max-height: 1104px;
       grid-template-columns: repeat(2,1fr);
       justify-items: stretch;
